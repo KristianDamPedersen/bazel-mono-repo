@@ -1,0 +1,6 @@
+genrule(
+    name = "Project B",
+    srcs = [],
+    outs = ["projectB.txt"],
+    cmd = "sleep 3 && echo 'Hello World Again!!' > $@",
+)
